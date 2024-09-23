@@ -1,5 +1,6 @@
 package com.example.mumin;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -23,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+    public void seguir(View v) {
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+    }
+
 }

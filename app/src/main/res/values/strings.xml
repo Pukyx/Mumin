@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">Mumin</string>
-    <string name="correo">Correo</string>
-    <string name="contraseña">Contraseña</string>
+    <string name="correo">Ingrese su Correo</string>
+    <string name="contraseña">Ingrese su Contraseña</string>
     <string name="btnIniciar">Iniciar Sesión</string>
     <string name="btnRegistrate">Registrate</string>
+
+    <string name="btnRedireccion">Siguiente</string>
+
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

@@ -1,5 +1,6 @@
 package com.example.mumin;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -23,8 +24,9 @@ public class Login extends AppCompatActivity {
             return insets;
         });
     }
-    public void login(View view) {
-        System.out.println("Login");
-        Toast.makeText(this, "Login", Toast.LENGTH_SHORT).show();
+    public void login(View v) {
+
+        Intent i = new Intent(this,Menu.class);
+        startActivity(i);
     }
 }
