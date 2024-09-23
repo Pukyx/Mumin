@@ -1,7 +1,12 @@
 package com.example.mumin;
 
-import android.os.Bundle;
+import static androidx.core.content.ContextCompat.startActivity;
 
+import android.os.Bundle;
+import android.content.Intent;
+
+import android.view.View;
+import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -21,4 +26,11 @@ public class Notificaciones extends AppCompatActivity {
             return insets;
         });
     }
+}
+
+public void btnGuardaracmbios(View v){
+    Toast.makeText(this, "Cambios guardados de forma existosa", Toast.LENGTH_SHORT).show();
+    Intent i = new Intent(this, Ajustes.class);
+    startActivity(i);
+}
 }
